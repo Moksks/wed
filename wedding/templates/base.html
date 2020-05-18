@@ -1,0 +1,281 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Anis</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'anis/css/main.css' %}">
+</head>
+
+<body>
+  <!-- Шапка -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"><img src="{% static 'anis/images/super_logo.png' %}"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Сервисы</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ссылки</a>
+          </li>
+        </div>
+      </div>
+  </nav>
+  <!-- Слайдер изображений -->
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'anis/images/Hilori0.jpg' %}" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'anis/images/Maria0.jpg' %}" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'anis/images/Naris.jpg' %}" alt="" class="d-block w-100">
+      </div>
+    </div>
+    <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Основной блок -->
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-12 col-md-3 col-xl-2">
+        <p class="lead">Ani•s</p>
+      </div>
+      <div class="col-12 col-md-3 col-xl-2">
+        <a href=""><button class="btn btn-success btn-lg" type="button">Read more</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- Характеристики -->
+  <div class="container-fluid">
+    <div class="row tex-center alert">
+      <div class="col-12">
+        <h1 class="display-4">Наши бренды</h1>
+      </div>
+      <hr>
+      <!-- <div class="col-12">
+        <p class="lead">lorem</p>
+      </div> -->
+    </div>
+    <!-- Языки -->
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- <i class="fas fa-bold"></i> -->
+        <h3>Rara Avis</h3>
+        <p>Rara Avis Group as a wedding brand was founded in 2008. There are no small details in wedding preparations, and every bride tries to be special, beautiful, and unique. We wanted, and what was more important, we could do more for them!</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- <i class="fas fa-bold"></i> -->
+        <h3>Ange Etoiles</h3>
+        <p>The first wedding collection by Ange Etoiles appeared in 2010. Ange Etoiles is classic silhouttes in modern perusal, luxury and grace, elegance and feminine in each detal. 'Be classic and stay gorgeous' reminds that the classic is always in fashion.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- <i class="fas fa-css3"></i> -->
+        <h3>Blammo Biamo</h3>
+        <p>The first wedding collection by Blammo-Biamo appeared in 2017. "Use your wings" quot is the slogan of the brand, which encourages girls to strive to resemble a butterfly — to be stunning enough to admire, yet stay elusive.</p>
+      </div>
+    </div>  <!--карточки-->
+    <div class="container-fluid padding">
+      <div class="row text-center">
+          <!-- <div class="col-12">
+            <h1 class="display-4">Наши бренды</h1>
+          </div> -->
+          <hr>
+      </div>
+    </div>
+    <div class="container padding">
+      <div class="row padding">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'anis/images/Maria0.jpg' %}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Rara Avis</h4>
+                <p class="card-text">exclusive</p>
+                <a href="#" class="btn btn-warning">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'anis/images/Maria0.jpg' %}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Blammo Biamo</h4>
+                <p class="card-text">exclusive</p>
+                <a href="#" class="btn btn-warning">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'anis/images/Maria0.jpg' %}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Ange Etoiles</h4>
+                <p class="card-text">exclusive</p>
+                <a href="#" class="btn btn-warning">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <hr>
+    </div>
+    <hr class="my-4">
+  </div>
+
+  <!--Секция с иображением-->
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="offset-lg-2 col-lg-4">
+        <h2> SOmething</h2>
+        <p>Lorrem ipsum donode volorpos chirk feewer
+        <br><br>
+        Lorrem ipsum donode volorpos chirk feewer
+        <br><br>
+        Lorrem ipsum donode volorpos chirk feewer</p>
+        <br>
+        <a href="#" class="btnbtn-danger">Read more</a>
+      </div>
+      <div class="col-lg-6">
+        <br>
+        <img src="{% static 'anis/images/Maria0.jpg' %}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+    <!--Секция с fix иображением-->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+      </div>
+    </figure>
+    <!--closed Секция-->
+    <button type="button" class="btn btn-success text-center" data-toggle="collapse" data-target="#gifs">Открыть блок</button>
+      <div id="gifs" class="collapse">
+        <div class="container-fluid padding">
+          <div clas="row text-center">
+            <div class="col-sm-6 col-md-3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--footer-->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row padding text-center">
+          <div class="col-12"
+            <h2>Contacts</h2>
+          </div>
+          <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Записаться на примерку
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="containe-fluidr">
+              <div class="row">
+                <div class="col-md-12 ml-auto"> </div>
+                  <div class="col-md-12 ml-auto">
+                     <h4>Форма обратной связи на Bootstrap</h4>
+                     <form action="./mail.php" method="post">
+                  <div class="form-group">
+                     <label for="name">Ваше имя:</label>
+                     <input type="name" name="name" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                     <label for="email1">E-mail:</label>
+                     <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                     <label for="phone">Номер телефона:</label>
+                     <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                     <label for="message">Rjvvtynfhbq:</label>
+                     <textarea class="form-control" name="message" rows="3"></textarea>
+                  </div>
+                  </form>
+                  </div>
+                  <div class="col-md-4"> </div> </div>
+                  </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Jnghfdbnm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="title">Запшись на примерку</h1>
+                    <h1 class="title">Наш сотрудник свяжется с вами, чтобы выбрать удобное время</h1>
+                    <div>
+                        <form action="" method="post">{% csrf_token %}
+                        {{ form.as_p  }}
+                         <div>
+                             <button type="submit" class="btn btn-primary">Отправить</button>
+                         </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div> -->
+
+</body>
+</html>
